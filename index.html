@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <title>Exercice 2</title>
+  <script>
+    agrandir = (x) => {
+      x.style.height = "80%"
+      x.style.width = "80%"
+    }
+    normal = (x) => {
+      x.style.height = "50%"
+      x.style.width = "50%"
+    }
+  </script>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body><img onmouseover="agrandir(this)" onmouseout="normal(this)" src="assets/img/la-nuit-etoilee.jpg" alt="La nuit étoilée - V. VAN GOGH"/>
+</body>
+</html>
